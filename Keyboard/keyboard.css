@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#inputField {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.keyboard.hidden {
+    display: none;
+}
+
+.keyboard-row {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.key {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#space {
+    width: 150px;
+}
+
+#backspace {
+    width: 60px;
+}

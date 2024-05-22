@@ -1,0 +1,19 @@
+
+.all{
+    margin: 200px;
+    border: 30px  ;
+     width: 50%;
+    height: 10vh;
+    background-color: white;
+}
+#time{
+    border-radius: 30px;
+    font-size: medium;
+    background-color: orangered;
+    
+}
+#displayTime{
+    font-size:50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bolder;
+}
